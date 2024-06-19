@@ -1,8 +1,8 @@
  //GLOVAL_VARIABLES_Start
-def imageName="192.168.44.44:8082/docker_registry/backend"
+def imageName="sor4nn/backend"
+def dockerRegistry=""
+def registryCredentials="dockerhub"
 def dockerTag=""
-def dockerRegistry="https://192.168.44.44:8082"
-def registryCredentials="artifactory"
 //GLOVAL_VARIABLES_End
 pipeline { //PIPELINE_START
     agent 
